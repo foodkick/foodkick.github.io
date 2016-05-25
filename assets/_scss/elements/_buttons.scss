@@ -1,13 +1,10 @@
 // Buttons variables
 
-$button-stroke: inset 0 0 0 2px;
+$button-stroke: inset 0 0 0 1px;
 
 // Buttons
 
-.usa-button,
-.usa-button-primary,
-.usa-button:visited,
-.usa-button-primary:visited,
+.button,
 button,
 [type="button"],
 [type="submit"],
@@ -16,13 +13,13 @@ button,
   appearance: none;
   background-color: $color-primary;
   border: 0;
-  border-radius: $border-radius;
+  border-radius: 0;
   color: $color-white;
   cursor: pointer;
   display: inline-block;
   font-family: $font-sans;
   font-size: $base-font-size;
-  font-weight: $font-bold;
+  font-weight: $font-medium;
   line-height: 1;
   margin: {
     top: .5em;
@@ -37,57 +34,92 @@ button,
   -webkit-font-smoothing: antialiased;
 
   &:hover,
-  &.usa-button-hover {
-    background-color: $color-primary-darker;
+  &.button-hover {
+    background-color: $color-primary-lighter;
     border-bottom: 0;
     color: $color-white;
     text-decoration: none;
   }
 
   &:focus,
-  &.usa-button-focus {
-    box-shadow: $focus-shadow;
+  &.button-focus {
+    background-color: $color-primary-lighter;
+    box-shadow: $button-stroke $color-primary-darker, $focus-shadow;
   }
 
   &:active,
-  &.usa-button-active {
-    background-color: $color-primary-darkest;
+  &.button-active {
+    background-color: $color-primary-lightest;
   }
 
   @media (min-width: $small-screen) {
     width: auto;
   }
 
-  &.usa-button-primary-alt {
-    background-color: $color-primary-alt;
-    color: $color-base;
+  /*  Primary Ghost Button  */
+  &.button-primary-alt {
+    background-color: $color-white;
+    color: $color-primary;
+    box-shadow: $button-stroke $color-primary;
 
     &:hover,
-    &.usa-button-hover {
-      background-color: $color-primary-alt-dark;
+    &.button-hover {
+      background-color: $color-primary-fade;
     }
 
     &:active,
-    &.usa-button-active {
-      background-color: $color-primary-alt-darkest;
-      color: $color-white;
+    &.button-active {
+      background-color: $color-white;
+      color: $color-primary;
+    }
+    &:focus,
+    &.button-focus {
+      box-shadow: $button-stroke $color-primary, $focus-shadow;
     }
   }
 
-  &.usa-button-secondary {
+  /*  Secondary Button  */
+  &.button-secondary {
     background-color: $color-secondary;
 
     &:hover,
-    &.usa-button-hover {
-      background-color: $color-secondary-dark;
+    &.button-secondary-hover {
+      background-color: $color-secondary-lighter;
     }
 
     &:active,
-    &.usa-button-active {
-      background-color: $color-secondary-darkest;
+    &.button-secondary-active {
+      background-color: $color-secondary-lightest;
+    }
+    &:focus,
+    &.button-secondary-focus {
+      box-shadow: $button-stroke $color-secondary-darker, $focus-shadow;
     }
   }
 
+  /*  Secondary Ghost Button  */
+  &.button-secondary-alt {
+    background-color: $color-white;
+    color: $color-secondary-darker;
+    box-shadow: $button-stroke $color-secondary;
+
+    &:hover,
+    &.button-secondary-hover {
+      background-color: $color-secondary-fade;
+    }
+
+    &:active,
+    &.button-secondary-active {
+      background-color: $color-white;
+    }
+
+    &:focus,
+    &.button-secondary-focus {
+      box-shadow: $button-stroke $color-secondary, $focus-shadow;
+    }
+  }
+
+  /*  Gray Button  */
   &.usa-button-gray {
     background-color: $color-gray;
 
@@ -101,64 +133,12 @@ button,
       background-color: $color-base;
     }
   }
-
-  &.usa-button-outline {
-    background-color: $color-white;
-    box-shadow: $button-stroke $color-primary;
-    color: $color-primary;
-
-    &:hover,
-    &.usa-button-hover {
-      box-shadow: $button-stroke $color-primary-darker;
-      color: $color-primary-darker;
-    }
-
-    &:active,
-    &.usa-button-active {
-      box-shadow: $button-stroke $color-primary-darkest;
-      color: $color-primary-darkest;
-    }
-
-    &:focus,
-    &.usa-button-focus {
-      box-shadow: $button-stroke $color-primary-darkest, $focus-shadow;
-    }
-  }
-
-  &.usa-button-outline-inverse {
-    background: transparent;
-    box-shadow: $button-stroke $color-white;
-    color: $color-white;
-
-    &:hover,
-    &.usa-button-hover {
-      box-shadow: $button-stroke $color-gray-lighter;
-      color: $color-gray-lighter;
-    }
-
-    &:active,
-    &.usa-button-active {
-      box-shadow: $button-stroke $color-gray-light;
-      color: $color-gray-lighter;
-    }
-
-    &:focus,
-    &.usa-button-focus {
-      box-shadow: $button-stroke $color-gray-light, $focus-shadow;
-    }
-  }
-
-  &.usa-button-big {
-    font-size: 1.9rem;
-    padding: 1.5rem 3rem;
-  }
 }
 
-[type="submit"]:disabled,
-.usa-button-disabled {
+button:disabled {
   background-color: $color-gray-lighter;
   color: $color-gray-dark;
-  cursor: default;
+  cursor: not-allowed;
 
   &:hover,
   &.usa-button-hover,

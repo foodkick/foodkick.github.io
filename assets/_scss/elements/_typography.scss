@@ -20,19 +20,16 @@ a {
   text-decoration: none;
 
   &:hover, 
-  &:active {
-    color: $color-primary-darker;
-    text-decoration: underline;
-  }
-
-  &:visited {
-    color: $color-visited;
-  }
-
+  &:active,
   &:focus {
-    box-shadow: $focus-shadow;
+    color: $color-primary-lightest;
+    text-decoration: underline;
     outline: 0;
   }
+
+  // &:visited {
+  //   color: $color-visited;
+  // }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -206,7 +203,7 @@ p,
   }
 
   a {
-    color: $color-gray-lighter;
+    color: $color-secondary-lightest;
     
     &:hover {
       color: $color-white;

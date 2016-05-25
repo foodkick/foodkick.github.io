@@ -5,63 +5,47 @@ title: Buttons
 lead: Use buttons to signal actions. 
 ---
 
-<!-- <div class="preview">
-  
-  <h6>Primary Buttons</h6>
+<div class="preview">
+  <h2>Primary Button</h2>
+  <h6>Main Styling</h6>
   <div class="button_wrapper">
     <button>Default</button>
-    <button class="usa-button-active">Active</button>
-    <button class="usa-button-hover">Hover</button>
+    <button class="button-active">Active</button>
+    <button class="button-hover">Hover</button>
+    <button class="button-focus">Focus</button>
   </div>
+  <h6>Ghost Styling</h6>
   <div class="button_wrapper">
-    <button class="usa-button-primary-alt">Default</button>
-    <button class="usa-button-primary-alt usa-button-active">Active</button>
-    <button class="usa-button-primary-alt usa-button-hover">Hover</button>
+    <button class="button-primary-alt">Default</button>
+    <button class="button-primary-alt button-active">Active</button>
+    <button class="button-primary-alt button-hover">Hover</button>
+    <button class="button-primary-alt button-focus">Focus</button>
   </div>
 
-  <h6>Secondary Buttons</h6>
+  <h2>Secondary Button</h2>
+  <h6>Main Styling</h6>
   <div class="button_wrapper">
-    <button class="usa-button-secondary">Default</button>
-    <button class="usa-button-secondary usa-button-active">Active</button>
-    <button class="usa-button-secondary usa-button-hover">Hover</button>
+    <button class="button-secondary">Default</button>
+    <button class="button-secondary button-secondary-active">Active</button>
+    <button class="button-secondary button-secondary-hover">Hover</button>
+    <button class="button-secondary button-secondary-focus">Focus</button>
   </div>
-
+  <h6>Ghost Styling</h6>
   <div class="button_wrapper">
-    <button class="usa-button-gray">Default</button>
-    <button class="usa-button-gray usa-button-active">Active</button>
-    <button class="usa-button-gray usa-button-hover">Hover</button>
+    <button class="button-secondary-alt">Default</button>
+    <button class="button-secondary-alt button-secondary-active">Active</button>
+    <button class="button-secondary-alt button-secondary-hover">Hover</button>
+    <button class="button-secondary-alt button-secondary-focus">Focus</button>
   </div>
 
-  <div class="button_wrapper">
-    <button class="usa-button-outline" type="button">Default</button>
-    <button class="usa-button-outline usa-button-active">Active</button>
-    <button class="usa-button-outline usa-button-hover">Hover</button>
-  </div>
-
-  <div class="button_wrapper button_wrapper-dark">
-    <button class="usa-button-outline-inverse" type="button">Default</button>
-    <button class="usa-button-outline-inverse usa-button-active">Active</button>
-    <button class="usa-button-outline-inverse usa-button-hover">Hover</button>
-  </div>
-
-  <h6>Button Focus</h6>
-  <div class="button_wrapper">
-    <button class="usa-button-focus">Default</button>
-    <button class="usa-button-primary-alt usa-button-focus">Default</button>
-    <button class="usa-button-secondary usa-button-focus">Default</button>
-  </div>
-
+  <h2>Other Buttons</h2>
   <h6>Disabled Button</h6>
   <div class="button_wrapper">
-    <button class="usa-button-disabled">Default</button>
+    <button disabled>Default</button>
   </div>
 
-  <h6>Big Button</h6>
-  <div class="button_wrapper">
-    <button class="usa-button-big" type="button">Default</button>
-  </div>
 
-</div> -->
+</div>
 
 <div class="usa-accordion-bordered usa-accordion-docs">
   <button class="usa-button-unstyled usa-accordion-button"
@@ -86,7 +70,7 @@ lead: Use buttons to signal actions.
     <h4 class="usa-heading">Accessibility</h4>
     <ul class="usa-content-list">
       <li>Buttons should display a visible focus state when users tab to them.</li>
-      <li>Avoid using <code>&lt;div&gt;</code> or <code>&lt;img&gt;</code> tags to create buttons. Screen readers don't automatically know either is an usable button.</li>
+      <li>Avoid using <code>&lt;div&gt;</code> or <code>&lt;img&gt;</code> tags to create buttons. Screen readers don't automatically know either is a usable button.</li>
       <li>When styling links to look like buttons, remember that screen readers handle links slightly differently than they do buttons. Pressing the Space key triggers a button, but pressing the Enter key triggers a link.</li>
     </ul>
     <h4 class="usa-heading">Usability</h4>

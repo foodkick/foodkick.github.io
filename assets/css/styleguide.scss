@@ -50,10 +50,12 @@ $site-top:           124px;
       width: 70%;
 
       a {
-        color: $color-gray;
+        color: $color-base;
+        font-size: $h2-font-size;
+        font-weight: 400;
 
         &:hover {
-          color: $color-gray-dark;
+          color: $color-primary;
           text-decoration: none;
         }
       }
@@ -601,162 +603,84 @@ h3 + .button_wrapper {
 
 // Color background helpers
 
-.usa-color-primary {
+.color-primary {
   background-color: $color-primary;
 }
 
-.usa-color-primary-darker {
+.color-primary-darker {
   background-color: $color-primary-darker;
 }
 
-.usa-color-primary-darkest {
+.color-primary-darkest {
   background-color: $color-primary-darkest;
 }
 
-.usa-color-base {
+.color-primary-lighter {
+  background-color: $color-primary-lighter;
+}
+
+.color-primary-lightest {
+  background-color: $color-primary-lightest;
+}
+
+.color-primary-fade {
+  background-color: $color-primary-fade;
+}
+
+.color-base {
   background-color: $color-base;
 }
 
-.usa-color-gray-dark {
+.color-gray-dark {
   background-color: $color-gray-dark;
 }
 
-.usa-color-gray-light {
+.color-gray-light {
   background-color: $color-gray-light;
 }
 
-.usa-color-white {
+.color-white {
   background-color: $color-white;
-  box-shadow: inset 0 0 0 1px $color-gray;
+  box-shadow: inset 0 0 0 1px $color-gray-light;
 }
 
-.usa-color-primary-alt {
-  background-color: $color-primary-alt;
-}
-
-.usa-color-primary-alt-dark {
-  background-color: $color-primary-alt-dark;
-}
-
-.usa-color-primary-alt-darkest {
-  background-color: $color-primary-alt-darkest;
-}
-
-.usa-color-primary-alt-light {
-  background-color: $color-primary-alt-light;
-}
-
-.usa-color-primary-alt-lightest {
-  background-color: $color-primary-alt-lightest;
-}
-
-.usa-color-secondary {
+.color-secondary {
   background-color: $color-secondary;
 }
 
-.usa-color-secondary-dark {
-  background-color: $color-secondary-dark;
+.color-secondary-darker {
+  background-color: $color-secondary-darker;
 }
 
-.usa-color-secondary-darkest {
-  background-color: $color-secondary-darkest;
+.color-secondary-lighter {
+  background-color: $color-secondary-lighter;
 }
 
-.usa-color-secondary-light {
-  background-color: $color-secondary-light;
-}
-
-.usa-color-secondary-lightest {
+.color-secondary-lightest {
   background-color: $color-secondary-lightest;
 }
 
-.usa-color-gray {
+.color-secondary-fade {
+  background-color: $color-secondary-fade;
+}
+
+.color-gray {
   background-color: $color-gray;
 }
 
-.usa-color-gray-dark {
+.color-gray-dark {
   background-color: $color-gray-dark;
 }
 
-.usa-color-gray-light {
+.color-gray-light {
   background-color: $color-gray-light;
 }
 
-.usa-color-gray-lighter {
+.color-gray-lighter {
   background-color: $color-gray-lighter;
 }
 
-.usa-color-gray-lightest {
-  background-color: $color-gray-lightest;
-}
 
-.usa-color-gray-warm-dark {
-  background-color: $color-gray-warm-dark;
-}
-
-.usa-color-gray-warm-light {
-  background-color: $color-gray-warm-light;
-}
-
-.usa-color-gray-cool-light {
-  background-color: $color-gray-cool-light;
-}
-
-.usa-color-gold {
-  background-color: $color-gold;
-}
-
-.usa-color-gold-light {
-  background-color: $color-gold-light;
-}
-
-.usa-color-gold-lighter {
-  background-color: $color-gold-lighter;
-}
-
-.usa-color-gold-lightest {
-  background-color: $color-gold-lightest;
-}
-
-.usa-color-green {
-  background-color: $color-green;
-}
-
-.usa-color-green-light {
-  background-color: $color-green-light;
-}
-
-.usa-color-green-lighter {
-  background-color: $color-green-lighter;
-}
-
-.usa-color-green-lightest {
-  background-color: $color-green-lightest;
-}
-
-.usa-color-cool-blue {
-  background-color: $color-cool-blue;
-}
-
-.usa-color-cool-blue-light {
-  background-color: $color-cool-blue-light;
-}
-
-.usa-color-cool-blue-lighter {
-  background-color: $color-cool-blue-lighter;
-}
-
-.usa-color-cool-blue-lightest {
-  background-color: $color-cool-blue-lightest;
-}
-
-.usa-color-focus {
-  background-color: $color-focus;
-}
-
-.usa-color-visited {
-  background-color: $color-visited;
-}
 
 // Color text helpers
 
