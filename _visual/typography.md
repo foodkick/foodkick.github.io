@@ -43,6 +43,9 @@ order: 01
   </div>
 </div>
 
+<h3 class="usa-heading" id="text-accessibility">Text Accessibility</h3>
+<p>WCAG (Web Content Accessibility Guidelines) ensure that content is accessible by everyone, regardless of disability or user device. To meet these standards, text and interactive elements should have a color contrast ratio of <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">at least 4.5:1</a>. This ensures that viewers who cannot see the full color spectrum are able to read the text.</p>
+
 <!-- <h3 class="usa-heading" id="pairings">Pairings + Styles</h3>
 <p>To support both more contemporary and more traditional web design aesthetics, this font system offers recommended font pairings. Each pairing includes web hierarchy guidance on font family, weight, size, and spacing which express either more modern or more classical type design.</p>
 <p>Note: Some pairings require more font weights than others. While this allows more typographic expression, the use of more than four font weights will have a negative impact on page load performance. Find the balance that works for your product.</p>
@@ -889,7 +892,7 @@ order: 01
 
 <!-- Typsetting section begin -->
 
-<h3 class="usa-heading" id="typesetting">Typesetting</h3>
+<!-- <h3 class="usa-heading" id="typesetting">Typesetting</h3>
 <p>Readable text allows users to efficiently read and take in textual information, whereas text that is not readable turns off readers or makes it challenging for them to stay focused. The following guidelines promote good readability.</p>
 
 <div class="preview">
@@ -916,11 +919,11 @@ order: 01
   <p>Right now scientists think that we only know about 17 percent of the plants and animals that live in the park, or about 17,000 species of a probable 100,000 different organisms.</p>
   <h5>Subsection of the page</h5>
   <p>Entrance to Great Smoky Mountains National Park is free. The park is one of the few national parks where no entrance fees are charged.</p>
-</div>
+</div> -->
 
 <!-- Typsetting section end -->
 
-<div class="usa-accordion-bordered usa-accordion-docs">
+<!-- <div class="usa-accordion-bordered usa-accordion-docs">
   <button class="usa-button-unstyled usa-accordion-button"
       aria-expanded="true" aria-controls="collapsible-0">
     Documentation
@@ -937,42 +940,9 @@ order: 01
       <li>Spacing: White space affects how the user focuses their attention on the content. It makes it easier to know what to read and where to begin. Spacing between typographic elements should be open enough to feel light, but close enough to establish a proper relationship between elements. When setting headers and body copy, white space should be 60px, 30px, 20px, or 15px.</li>
     </ul>
   </div>
-</div>
+</div> -->
 
-<!-- Links section begin -->
 
-<h3 class="usa-heading" id="links">Links</h3>
-
-<p class="usa-font-lead">Links lead users to a different page or further information.
-</p>
-
-<div class="preview">
-
-  <a href="#">This is a link without surrounding text.</a>
-  <p><a href="#">This</a> is a text link on a light background.</p>
-
-  <div class="usa-background-dark">
-    <p><a href="#">This</a> is a text link on a dark background.</p>
-  </div>
-</div>
-
-<!-- Links section end -->
-
-<div class="usa-accordion-bordered usa-accordion-docs">
-  <button class="usa-button-unstyled usa-accordion-button"
-      aria-expanded="true" aria-controls="collapsible-0">
-    Documentation
-  </button>
-  <div id="collapsible-0" aria-hidden="false" class="usa-accordion-content">
-    <h4 class="usa-heading">Accessibility</h4>
-    <ul class="usa-content-list">
-      <li>Users should be able to tab to navigate between links.
-      <li>Users should be able to activate a link when pressing ‘Enter’ on their keyboard.</li>
-      <li>Users should be able to identify links without relying on color alone.</li>
-      <li>Users should be able to activate hover and and focus states with both a mouse and a keyboard.</li>
-    </ul>
-  </div>
-</div>
 
 <!-- Lists section begin -->
 

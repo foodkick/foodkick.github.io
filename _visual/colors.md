@@ -124,8 +124,42 @@ order: 02
   </div>
 </div>
 
-<h3 class="usa-heading" id="text-accessibility">Text Accessibility</h3>
-<p>WCAG (Web Content Accessibility Guidelines) ensure that content is accessible by everyone, regardless of disability or user device. To meet these standards, text and interactive elements should have a color contrast ratio of <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">at least 4.5:1</a>. This ensures that viewers who cannot see the full color spectrum are able to read the text.</p>
+<!-- Links section begin -->
+
+<h3 class="usa-heading" id="links">Links</h3>
+
+<p class="usa-font-lead">Links lead users to a different page or further information.
+</p>
+
+<div class="preview">
+
+  <a href="#">This is a link without surrounding text.</a>
+  <p><a href="#">This</a> is a text link on a light background.</p>
+
+  <div class="usa-background-dark">
+    <p><a href="#">This</a> is a text link on a dark background.</p>
+  </div>
+</div>
+
+<!-- Links section end -->
+
+<div class="usa-accordion-bordered usa-accordion-docs">
+  <button class="usa-button-unstyled usa-accordion-button"
+      aria-expanded="true" aria-controls="collapsible-0">
+    Documentation
+  </button>
+  <div id="collapsible-0" aria-hidden="false" class="usa-accordion-content">
+    <h4 class="usa-heading">Accessibility</h4>
+    <ul class="usa-content-list">
+      <li>Users should be able to tab to navigate between links.
+      <li>Users should be able to activate a link when pressing ‘Enter’ on their keyboard.</li>
+      <li>Users should be able to identify links without relying on color alone.</li>
+      <li>Users should be able to activate hover and and focus states with both a mouse and a keyboard.</li>
+    </ul>
+  </div>
+</div>
+
+
 <!-- <p>The options below offer color palette combinations that fall within the range of Section 508 compliant foreground/background color contrast ratios. To ensure that text remains accessible, use only these permitted color combinations.</p>
 <p>If you choose to customize beyond this palette, this <a href="http://webaim.org/resources/contrastchecker/">color contrast tool</a> is a useful resource for testing the compliance of any color combination.</p>
 <h4 class="usa-heading">Fully accessible combinations</h4>
