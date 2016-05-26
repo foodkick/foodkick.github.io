@@ -53,7 +53,7 @@ lead: Use buttons to signal actions.
     Documentation
   </button>
   <div id="collapsible-0" aria-hidden="false" class="usa-accordion-content">
-    <h4 class="usa-heading">Implementation</h4>
+    <!-- <h4 class="usa-heading">Implementation</h4>
     <p>The examples demonstrate how to use button elements. To use a button style on an anchor link, add the <code>usa-button</code> class to your anchor link. 
     <p>To use a different style button on your anchor link, add the special button class in addition to <code>usa-button</code>:</p>
     <ul>
@@ -66,7 +66,7 @@ lead: Use buttons to signal actions.
       <li><code>usa-button-big</code></li>
     </ul>
     <p>For example, a secondary button style would use the following code:
-    <code>&lt;a class="usa-button usa-button-secondary" href="/my-link"&gt;My button&lt;/a&gt;</code></p>
+    <code>&lt;a class="usa-button usa-button-secondary" href="/my-link"&gt;My button&lt;/a&gt;</code></p> -->
     <h4 class="usa-heading">Accessibility</h4>
     <ul class="usa-content-list">
       <li>Buttons should display a visible focus state when users tab to them.</li>
@@ -76,7 +76,7 @@ lead: Use buttons to signal actions.
     <h4 class="usa-heading">Usability</h4>
     <h5>When to use</h5>
     <ul class="usa-content-list">
-      <li>Use buttons for the most important actions you want users to take on your site, such as "download," "sign up," or "log out."</li>
+      <li>Use buttons for the most important actions you want users to take on your site, such as "download," "create account," or "sign out".</li>
     </ul>
     <h5>When to consider something else</h5>
     <ul class="usa-content-list">
