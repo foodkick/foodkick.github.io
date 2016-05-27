@@ -87,6 +87,17 @@ order: 02
   </div>
 </div>
 
+<h4 class="usa-heading">Tertiary colors</h4>
+<p>Used less often, usually for very specific interactions.</p>
+<div class="usa-grid-full usa-color-row">
+  <div class="color-small">
+    <div class="usa-color-short color-red">
+    </div>
+      <p class="usa-color-hex">#b93d3f</p>
+      <p class="usa-color-name">red</p>
+  </div>  
+</div>
+
 <h4 class="usa-heading">Background colors</h4>
 
 <p>These colors are used largely for background blocks and large content areas. When alternating between tones, be sure to use enough contrast between adjacent colors.</p>
