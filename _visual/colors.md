@@ -45,7 +45,7 @@ order: 02
   <div class="color-small">
     <div class="usa-color-short color-primary-fade">
     </div>
-      <p class="usa-color-hex">#3a1141</p>
+      <p class="usa-color-hex">#fbf4fc</p>
       <p class="usa-color-name">primary-fade</p>
   </div> 
 </div>
