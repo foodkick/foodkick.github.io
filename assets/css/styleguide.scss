@@ -1040,16 +1040,16 @@ $font-light: 300;
 a.tooltip-small{
   display: inline-block;
   font-family: "FK-icons";
-  font-size: 14px;
+  font-size: 13px;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
-  width: 18px;
-  height: 18px;
+  width: 19px;
+  height: 19px;
   margin: 0;
   padding: 0;
   background-color: $color-gray;
-  border-radius: 18px;
+  border-radius: 20px;
   position: relative;
   top: -10px;
   z-index: 98;
@@ -1079,22 +1079,22 @@ a.tooltip-small:hover:after{
   z-index: 4;
   height: auto;
   width: 220px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 120%;
-}
+}   
 a.tooltip-small:hover:before{
   font-family: "FK-icons";
-  font-size: 14px;
+  font-size: 13px;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
-  width: 18px;
-  height: 18px;
+  width: 19px;
+  height: 19px;
   margin: 0;
   padding: 0;
   background-color: $color-primary;
-  border-radius: 18px;
+  border-radius: 20px;
   position: relative;
   content: "?";
   right: 0;

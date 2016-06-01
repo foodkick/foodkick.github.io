@@ -1,9 +1,14 @@
 ---
 layout: styleguide
 title: Grids
-lead:  This 16-column, responsive grid provides structure for website content.
+lead:  This 16-column, responsive grid provides structure for website content. 
 ---
-
+<p>The grid is based on the following measurements:</p>
+<ul>
+  <li><em class="em-yellow-bg">1200px page width</em></li>
+  <li><em class="em-yellow-bg">30px gutter width</em></li>
+  <li><em class="em-yellow-bg">15px side margin</em></li>
+</ul>
 <div class="preview preview-no_border">
 
   <h2 class="usa-heading">Grid</h2>
@@ -26,12 +31,41 @@ lead:  This 16-column, responsive grid provides structure for website content.
     <div class="usa-width-one-fourth">1/4</div>
   </div>
   <div class="usa-grid usa-grid-example usa-grid-example-blank">
+    <div class="usa-width-one-fifth">1/5</div>
+    <div class="usa-width-one-fifth">1/5</div>
+    <div class="usa-width-one-fifth">1/5</div>
+    <div class="usa-width-one-fifth">1/5</div>
+    <div class="usa-width-one-fifth">1/5</div>
+  </div>
+  <div class="usa-grid usa-grid-example usa-grid-example-blank">
     <div class="usa-width-one-sixth">1/6</div>
     <div class="usa-width-one-sixth">1/6</div>
     <div class="usa-width-one-sixth">1/6</div>
     <div class="usa-width-one-sixth">1/6</div>
     <div class="usa-width-one-sixth">1/6</div>
     <div class="usa-width-one-sixth">1/6</div>
+  </div>
+  <div class="usa-grid usa-grid-example usa-grid-example-blank">
+    <div class="usa-width-one-eight">1/8</div>
+    <div class="usa-width-one-eight">1/8</div>
+    <div class="usa-width-one-eight">1/8</div>
+    <div class="usa-width-one-eight">1/8</div>
+    <div class="usa-width-one-eight">1/8</div>
+    <div class="usa-width-one-eight">1/8</div>
+    <div class="usa-width-one-eight">1/8</div>
+    <div class="usa-width-one-eight">1/8</div>
+  </div>
+  <div class="usa-grid usa-grid-example usa-grid-example-blank">
+    <div class="usa-width-one-tenth">1/10</div>
+    <div class="usa-width-one-tenth">1/10</div>
+    <div class="usa-width-one-tenth">1/10</div>
+    <div class="usa-width-one-tenth">1/10</div>
+    <div class="usa-width-one-tenth">1/10</div>
+    <div class="usa-width-one-tenth">1/10</div>
+    <div class="usa-width-one-tenth">1/10</div>
+    <div class="usa-width-one-tenth">1/10</div>
+    <div class="usa-width-one-tenth">1/10</div>
+    <div class="usa-width-one-tenth">1/10</div>
   </div>
   <div class="usa-grid usa-grid-example usa-grid-example-blank">
     <div class="usa-width-one-twelfth">1/12</div>
@@ -48,7 +82,7 @@ lead:  This 16-column, responsive grid provides structure for website content.
     <div class="usa-width-one-twelfth">1/12</div>
   </div>
 
-  <h2 class="usa-heading">Grid Examples</h2>
+  <!-- <h2 class="usa-heading">Grid Examples</h2> -->
 
 </div>
 
@@ -79,7 +113,7 @@ lead:  This 16-column, responsive grid provides structure for website content.
     </ul>
     <h5>Guidance</h5>
     <ul class="usa-content-list">
-      <li>Choose a 12-column grid with flexible column widths and fixed gutters. The width of the padding on the left and right edge of the grid depends on device size.</li>
+      <li>Choose a 16-column grid with flexible column widths and fixed gutters. The width of the padding on the left and right edge of the grid depends on device size.</li>
       <li>Avoid text lines longer than 75 characters. Place text in narrower grid boxes to keep text lines from becoming too wide.</li>
     </ul>
   </div>

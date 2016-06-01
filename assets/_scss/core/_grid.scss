@@ -72,6 +72,9 @@
     .usa-width-three-fourths {
       @include span-columns(9);
     }
+    .usa-width-one-fifth {
+      @include span-columns(2.4);
+    }
     .usa-width-one-sixth {
       @include span-columns(2);
 
@@ -82,6 +85,12 @@
       &:nth-child(6n) {
         margin-right: 0;
       }
+    }
+    .usa-width-one-eight {
+      @include span-columns(1.5);
+    }
+    .usa-width-one-tenth {
+      @include span-columns(1.2);
     }
     .usa-width-five-sixths {
       @include span-columns(10);
