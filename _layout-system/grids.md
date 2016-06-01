@@ -11,7 +11,7 @@ lead:  This 16-column, responsive grid provides structure for website content.
 </ul>
 <div class="preview preview-no_border">
 
-  <h2 class="usa-heading">Grid</h2>
+  <h2 class="usa-heading">Columns</h2>
   <div class="usa-grid usa-grid-example usa-grid-example-blank">
     <div class="usa-width-one-whole">1/1</div>
   </div>
