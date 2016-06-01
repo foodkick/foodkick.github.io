@@ -137,7 +137,7 @@ order: 02
 
 <!-- Links section begin -->
 
-<h3 class="usa-heading" id="links">Links</h3>
+<!-- <h3 class="usa-heading" id="links">Links</h3>
 
 <p class="usa-font-lead">Links lead users to a different page or further information.
 </p>
@@ -150,11 +150,11 @@ order: 02
   <div class="usa-background-dark">
     <p><a href="#">This</a> is a text link on a dark background.</p>
   </div>
-</div>
+</div> -->
 
 <!-- Links section end -->
 
-<div class="usa-accordion-bordered usa-accordion-docs">
+<!-- <div class="usa-accordion-bordered usa-accordion-docs">
   <button class="usa-button-unstyled usa-accordion-button"
       aria-expanded="true" aria-controls="collapsible-0">
     Documentation
@@ -168,7 +168,7 @@ order: 02
       <li>Users should be able to activate hover and and focus states with both a mouse and a keyboard.</li>
     </ul>
   </div>
-</div>
+</div> -->
 
 
 <!-- <p>The options below offer color palette combinations that fall within the range of Section 508 compliant foreground/background color contrast ratios. To ensure that text remains accessible, use only these permitted color combinations.</p>

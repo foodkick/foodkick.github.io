@@ -493,6 +493,7 @@ h3 + .button_wrapper {
   color: $color-primary-darker;
 }
 
+
 // Colors -------------- //
 
 .usa-color-short {
@@ -1032,4 +1033,75 @@ $font-light: 300;
 .nested-content-list{
   margin: 10px 0 0 30px;
   list-style-type: disc;
+}
+
+
+/* tooltip */
+a.tooltip-small{
+  display: inline-block;
+  font-family: "FK-icons";
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  background-color: $color-gray;
+  border-radius: 18px;
+  position: relative;
+  top: -10px;
+  z-index: 98;
+}
+a.tooltip-small:hover{
+  background-color: $color-primary;
+}
+a.tooltip-small:focus{
+  background-color: $color-primary;
+  box-shadow: $box-shadow;
+}
+a.tooltip-small:hover:after{
+  text-align: left;
+  font-family: "Graphik", "Helvetica", "Arial", sans-serif;
+  background-color: #ffffff;
+  outline: 0;
+  border-radius: 3px;
+  border: 1px solid #999999;
+  box-shadow: $box-shadow;
+  bottom: 25px;
+  color: #333333;
+  content: attr(info);
+  right: -6px;
+  bottom: -6px;
+  padding: 18px;
+  position: absolute;
+  z-index: 4;
+  height: auto;
+  width: 220px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 120%;
+}
+a.tooltip-small:hover:before{
+  font-family: "FK-icons";
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  background-color: $color-primary;
+  border-radius: 18px;
+  position: relative;
+  content: "?";
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 99;
+}
+a.tooltip-small.info:hover:before{
+  content: "i";
 }
