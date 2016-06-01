@@ -5,7 +5,7 @@ title: Tables
 lead: Tables show tabular data in columns and rows.
 ---
 
-<div class="preview">
+<!-- <div class="preview">
 
   <h6>Bordered Table</h6>
 
@@ -75,7 +75,7 @@ lead: Tables show tabular data in columns and rows.
     </tbody>
   </table>
 
-</div>
+</div> -->
 
 <div class="usa-accordion-bordered usa-accordion-docs">
   <button class="usa-button-unstyled usa-accordion-button"

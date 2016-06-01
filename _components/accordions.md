@@ -5,7 +5,7 @@ title: Accordions
 lead: Accordions are a list of headers that can be clicked to hide or reveal additional content.
 ---
 
-<div class="preview">
+<!-- <div class="preview">
 
   <h6>Borderless</h6>
 
@@ -131,7 +131,7 @@ lead: Accordions are a list of headers that can be clicked to hide or reveal add
     </ul>
   </div>
 
-</div>
+</div> -->
 
 <div class="usa-accordion-bordered usa-accordion-docs">
   <button class="usa-button-unstyled usa-accordion-button"

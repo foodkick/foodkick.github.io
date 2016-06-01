@@ -5,7 +5,7 @@ title: Alerts
 lead: Alerts keep users informed of important and sometimes time-sensitive changes.
 ---
 
-<div class="preview">
+<!-- <div class="preview">
 
   <div class="usa-alert usa-alert-success">
     <div class="usa-alert-body">
@@ -41,7 +41,7 @@ lead: Alerts keep users informed of important and sometimes time-sensitive chang
       <p class="usa-alert-text">Multi line. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui atione voluptatem sequi nesciunt. Neque porro quisquam est, qui doloremipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="usa-accordion-bordered usa-accordion-docs">
   <button class="usa-button-unstyled usa-accordion-button"
