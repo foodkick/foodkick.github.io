@@ -1,14 +1,13 @@
 // Sizes
-$font-size-base:       14px;
+$font-size-base:       100%;								// ~16px
 
-$font-size-large:      ceil(($font-size-base *  1.142)); 	// ~16px
-$font-size-xlarge:     ceil(($font-size-base * 	1.25)); 	// ~18px
-$font-size-xxlarge:    ceil(($font-size-base * 	1.643)); 	// ~23px
-$font-size-huge:       ceil(($font-size-base * 	2.643)); 	// ~37px
+$font-size-huge:       3.5em;
+$font-size-xxlarge:    2.5em;
+$font-size-xlarge:     2em;
+$font-size-large:      1.5em;
 
 $font-size-small:      ceil(($font-size-base * 	0.85)); 	// ~12px
-$font-size-xsmall:     ceil(($font-size-base * 	0.786)); 	// ~11px
-$font-size-xxsmall:    ceil(($font-size-base * 	0.714)); 	// ~10px
+$font-size-xsmall:     ceil(($font-size-base * 	0.714)); 	// ~10px
 
 $font-size-tiny:       ceil(($font-size-base * 	0.571)); 	// ~8px
 

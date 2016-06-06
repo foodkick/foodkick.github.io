@@ -1105,3 +1105,103 @@ a.tooltip-small:hover:before{
 a.tooltip-small.info:hover:before{
   content: "i";
 }
+
+// Font Formatting Styles .font-example
+
+.font-example{
+  @media (max-width: $small-screen) {
+    padding: 0 15px 20px 15px;
+    text-align: center;
+  }
+  padding: 0 50px 40px 151px;
+  color: #444444;
+  h1{
+    @media (max-width: $small-screen) {
+      font-size: 2em;
+      line-height: 1.25em;     
+    }
+    font-size: 3em;
+    line-height: 1.05em;
+  }
+  h2{
+    @media (max-width: $small-screen) {
+      font-size: 1.625em;
+      line-height: 1.153em;     
+    }
+    font-size: 2.25em;
+    line-height: 1.25em;
+  }
+  h3{
+    @media (max-width: $small-screen) {
+      font-size: 1.375em;
+      line-height: 1.136em;     
+    }
+    font-size: 1.75em;
+    font-family: $font-sans;
+    font-weight: $font-medium;
+    line-height: 1.25em;
+  }
+  h4{
+    @media (max-width: $small-screen) {
+      line-height: 1.11em;     
+    }
+    font-size: 1.125em;
+    font-family: $font-sans;
+    font-weight: $font-medium;
+    line-height: 1.222em;
+  }
+  h5{
+    @media (max-width: $small-screen) {
+      font-size: 0.65em;
+      line-height: 1em;     
+    }
+    font-size: 0.75em;
+    font-family: $font-sans;
+    font-weight: $font-medium;
+    line-height: 1.05em;
+    letter-spacing: 0.05em;    
+  }
+  h6{
+    @media (max-width: $small-screen) {
+      font-size: 0.45em;
+      line-height: 1em;     
+    }
+    font-size: 0.50em;
+    font-family: $font-sans;
+    font-weight: $font-medium;
+    line-height: 1.05em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;    
+  }
+  p{
+    font-size: $font-size-base;
+  }
+  .em-yellow-bg{
+    @media (max-width: $small-screen) {
+      display: block;
+      margin: 0 0 8px 0;
+      width: auto;
+    }
+    display: inline-block;
+    font-size: inherit;
+    font-style: normal;
+    font-family: $font-sans;
+    font-weight: $font-normal;
+    padding: 0.2em;
+    margin-right: 15px;
+    margin-left: -96px;
+    width: 80px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
