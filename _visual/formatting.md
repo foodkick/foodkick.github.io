@@ -2,7 +2,7 @@
 layout: styleguide
 type: element
 title: Formatting
-lead: This page serves as an example of how basic formatting styles will display headings and paragraphs.  
+lead: This page serves as an example of how basic formatting styles for headings and paragraphs will display.  
 ---
 
 <div class="preview font-example">
