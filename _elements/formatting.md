@@ -29,7 +29,8 @@ lead: This page serves as an example of how basic formatting styles for headings
     	<li><strong>$font-size-huge:</strong> <span class="floatr">46px;</span></li>
     	<li><strong>$font-size-xlarge:</strong> <span class="floatr">28px;</span></li>
     	<li><strong>$font-size-large:</strong> <span class="floatr">22px;</span></li>
-    	<li><strong>$font-size-medium:</strong> <span class="floatr">16px;</span></li>
+    	<li><strong>$font-size-base:</strong> <span class="floatr">16px;</span></li>
+    	<li><strong>$font-size-medium:</strong> <span class="floatr">14px;</span></li>
     	<li><strong>$font-size-small:</strong> <span class="floatr">12px;</span></li>
     	<li><strong>$font-size-xsmall:</strong> <span class="floatr">10px;</span></li>
     	<li><strong>$font-size-tiny:</strong> <span class="floatr">8px;</span></li>
