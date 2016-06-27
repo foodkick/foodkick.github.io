@@ -27,13 +27,3 @@
     font-weight: 700;
     src: url('../fonts/tiemposheadline-bold.ttf') format('truetype'),
 }
-
-/*  FK Icons  */
-
-@font-face {
-    font-family: 'FK-icons';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/fk-icons.ttf') format('truetype'),
-}
-
