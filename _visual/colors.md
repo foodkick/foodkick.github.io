@@ -99,7 +99,7 @@ order: 02
   </div>  
 </div>
 
-<h4 class="usa-heading">Background colors</h4>
+<h4 class="usa-heading">Grayscale</h4>
 
 <p>These colors are used largely for background blocks and large content areas. When alternating between tones, be sure to use enough contrast between adjacent colors.</p>
 
