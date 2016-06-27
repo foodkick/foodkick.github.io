@@ -1,5 +1,6 @@
 ---
 layout: styleguide
+type: element
 title: Colors
 order: 02
 ---
@@ -9,9 +10,9 @@ order: 02
 
 <h3 class="usa-heading" id="palette">Palette</h3>
 
-<p>This palette is designed to support a range of distinct visual styles that continue to feel connected. The intent of the palette is to convey a warm and open American spirit, with bright saturated tints of blue and red, grounded in sophisticated deeper shades of cool blues and grays. These colors — combined with clear hierarchy, good information design, and ample white space — should leave users feeling welcomed and in good hands.</p>
+<p>This palette is designed to support a range of distinct visual styles that continue to feel connected. These colors — combined with clear hierarchy, good information design, and ample white space — should leave users feeling welcomed and in good hands.</p>
 
-<p>This is a simple, minimalist color palette. Shades of blue dominate, providing a neutral backdrop on which brighter shades, clean type treatment, and bright white content areas "pop" on the page.</p>
+<p>This is a simple, minimalist color palette. Shades of purple dominate, providing a neutral backdrop on which brighter shades, clean type treatment, and bright white content areas "pop" on the page.</p>
 
 <h4 class="usa-heading">Primary colors</h4>
 
@@ -52,7 +53,7 @@ order: 02
 
 <h4 class="usa-heading">Secondary colors</h4>
 
-<p>These are accent colors to provide additional lightness and style to pages looking for a more modern flair. These colors should be used to highlight important features on a page, such as buttons, or for visual style elements, such as illustrations. They should be used sparingly and never draw the eye to more than one piece of information at a time.</p>
+<p>These are complementary colors to provide balance and contrast in all kinds of layouts.</p>
 
 <div class="usa-grid-full usa-color-row">
   <div class="color-big">
@@ -90,7 +91,7 @@ order: 02
 <h4 class="usa-heading">Tertiary colors</h4>
 <p>Used less often, usually for very specific interactions.</p>
 <div class="usa-grid-full usa-color-row">
-  <div class="color-small">
+  <div class="color-big">
     <div class="usa-color-short color-red">
     </div>
       <p class="usa-color-hex">#b93d3f</p>
@@ -103,7 +104,20 @@ order: 02
 <p>These colors are used largely for background blocks and large content areas. When alternating between tones, be sure to use enough contrast between adjacent colors.</p>
 
 <div class="usa-grid-full usa-color-row">
-  <div class="color-big">
+  <h6 class="top-pad">Dark</h6>
+  <div class="color-small">
+    <div class="usa-color-short color-gray-darkest">
+    </div>
+      <p class="usa-color-hex">#1b1b21</p>
+      <p class="usa-color-name">gray-darkest</p>
+  </div>  
+  <div class="color-small">
+    <div class="usa-color-short color-gray-darker">
+    </div>
+      <p class="usa-color-hex">#3e3f49</p>
+      <p class="usa-color-name">gray-darker</p>
+  </div>
+  <div class="color-small">
     <div class="usa-color-short color-gray-dark">
     </div>
       <p class="usa-color-hex">#575860</p>
@@ -115,6 +129,8 @@ order: 02
       <p class="usa-color-hex">#a6a8b1</p>
       <p class="usa-color-name">gray</p>
   </div>
+
+  <h6 class="top-pad">Light</h6>
   <div class="color-small">
     <div class="usa-color-short color-gray-light">
     </div>
@@ -126,6 +142,12 @@ order: 02
     </div>
       <p class="usa-color-hex">#f4f4f3</p>
       <p class="usa-color-name">gray-lighter</p>
+  </div>
+  <div class="color-small">
+    <div class="usa-color-short color-off-white">
+    </div>
+      <p class="usa-color-hex">#fafafa</p>
+      <p class="usa-color-name">off-white</p>
   </div>
   <div class="color-small">
     <div class="usa-color-short color-white">
