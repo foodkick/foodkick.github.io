@@ -144,3 +144,15 @@ $('.sidenav').on('click', 'a', function(e) {
     }
   });
 });
+
+
+// Float label jquery call
+$(".floatlabel").floatlabel({
+  slideInput: false,
+  labelStartTop: '10px',
+  labelEndTop: '0px'
+});
+
+// SVG icon
+$("select").wrap("<div class='select'></div>");
+
