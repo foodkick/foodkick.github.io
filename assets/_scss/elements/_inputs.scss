@@ -15,28 +15,76 @@ input[type="time"],
 input[type="week"],
 textarea,
 select  {
-  border: 1px solid $color-gray;
+  border-top: 0px solid $color-white;
+  border-right: 0px solid $color-white;
+  border-bottom: 2px solid $color-gray;
+  border-left: 0px solid $color-white;
   border-radius: 0;
   box-sizing: border-box;
-  color: #000; // standardize on firefox 
+  color: #444444; 
   display: block;
-  font-size: $base-font-size;
-  margin: .2em 0;
-  max-width: $input-max-width;
+  font-size: $font-size-base;
+  font-weight: $font-normal;
+  min-width: 40%;
   width: 100%;
+  box-shadow: none;
+  height: auto;
+  margin-bottom: 28px;
   outline: none;
-  padding: 1rem .7em;
+  padding: 6px 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
 
   &:focus, 
+  &.focus,
   &.usa-input-focus {
-    box-shadow: $focus-shadow;
+    border-color: $color-primary;
+    box-shadow: none;
+    outline: none;
   }
 
   &.usa-input-success {
     border: 3px solid $color-green-light;
   }
+  &:disabled{
+    background-color: $color-gray-lighter;
+    cursor: not-allowed;
+    padding-left: 5px;
+  }
+  &.error{
+    border-color: $color-red;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 2px;
+  }
 }
+
+.error-msg {
+  display: block;
+  color: $color-red;
+  font-weight: $font-normal;
+  font-size: $font-size-medium;
+  text-align: left;
+  margin-top: 4px;
+}
+
+
+
+/* Floatlabel.js */
+input.floatlabel{
+  height: 46px;
+}
+label.label-floatlabel{
+  margin-top: 0;
+  font-weight: $font-medium;
+  letter-spacing: 0.3px;
+  font-size: $font-size-medium;
+  color: $color-primary;
+  width: 100%;
+}
+
 
 .usa-input-error {
   border-left: 4px solid $color-secondary-dark;
@@ -79,25 +127,49 @@ select  {
 label {
   display: block;
   margin: {
-    top: 3rem;
+    top: 0;
   }
   max-width: $input-max-width;
+  font-size: $font-size-medium;
+  font-weight: $font-medium;
+  color: $color-gray-dark;
 }
 
+/* Label – Optional Tag */
+label.label-floatlabel:after,
+label.optional:after {
+  content: "Optional";
+  display: block;
+  position: absolute;
+  color: $color-gray;
+  font-weight: $font-normal;
+  right: 0px;
+  top: 0px;
+}
+
+
 textarea {
-  height: 16rem;
+  height: 5rem;
 }
 
 select {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  background-color: $color-white;
-  background-image: url('../img/arrow-down.png');
-  background-image: url('../img/arrow-down.svg');
-  background-position: right 1.3rem center;
-  background-repeat: no-repeat;
-  background-size: 1.3rem;
+  background-color: transparent;
+  border: 2px solid $color-gray;
+  padding: 8px 6px;
+}
+
+.select{
+  position: relative;
+}
+.select:before{
+  font-family: 'fk-icons';
+  content: "\64";
+  position: absolute;
+  top: 12px;
+  right: 10px;
 }
 
 legend {
@@ -325,4 +397,12 @@ input[type=range]:focus::-ms-thumb {
 
 .usa-form-group-year {
   width: 7rem;
+}
+
+// SVG Icons
+[class^="icon-"], [class*=" icon-"] {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    fill: currentColor;
 }

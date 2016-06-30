@@ -10,36 +10,95 @@ lead: Form controls allow users to enter information into a page.
 <p>As you customize form controls from this library, be sure they continue to meet the following accessibility requirements:</p>
 
 <ul class="usa-content-list">
-  <li>All form control tags should have an associated label. The labels for attribute value should match the related input <code>id</code> attribute and should also be unique to the entire page. For example, the input with <code>id=<wbr>"favorite-national-park"</code> will always have a label with <code>for=<wbr>"favorite-national-park"</code>. This way screen readers are able to perceive the relevant content.</li>
-  <li>Any additional information — such as required, optional, or example text — should be wrapped within the label tags. For example: <code>&lt;label for=<wbr>"name"&gt;Favorite Pie &lt;span&gt;Optional&lt;/span&gt;&lt;/label&gt;</code>. This way screen readers know what additional information is related to each field.</li>
-  <li>Do not replace <code>&lt;input&gt;</code> tag-based form controls with styled <code>&lt;div&gt;</code> tags, or use JavaScript to create 'fake' form controls. Screen readers have a difficult time reading form controls that are not written in semantic HTML.</li>
-  <li>If you adjust the color scheme of the buttons, ensure a minimum contrast ratio of 4.5:1 (for small text, 3:1 for large) for the default, hover, focus, and selected states of the button. The disabled state may have less contrast to indicate that it is inactive.</li>
+  <li>All form control tags should have an associated label. The labels for attribute value should match the related input <em class="em-yellow-bg"><code>id</code></em> attribute and should also be unique to the entire page. For example, the input with <em class="em-yellow-bg"><code>id=<wbr>"delicious-ramen"</code></em> will always have a label with <em class="em-yellow-bg"><code>for=<wbr>"delicious-ramen"</code></em>. This way screen readers are able to perceive the relevant content.</li>
+  <li>Any additional information — such as required, optional, or example text — should be wrapped within the label tags. For example: <em class="em-yellow-bg"><code>&lt;label for=<wbr>"name"&gt;Favorite Pie &lt;span&gt;Optional&lt;/span&gt;&lt;/label&gt;</code></em>. This way screen readers know what additional information is related to each field.</li>
+  <li>Do not replace <em class="em-yellow-bg"><code>&lt;input&gt;</code></em> tag-based form controls with styled <em class="em-yellow-bg"><code>&lt;div&gt;</code></em> tags, or use JavaScript to create 'fake' form controls. Screen readers have a difficult time reading form controls that are not written in semantic HTML.</li>
+  <li>If you adjust the color scheme of the buttons, ensure a minimum contrast ratio of 4.5:1 (for small text, 3:1 for large) for all states of the button. This includes default, hover, selected, and disabled.</li>
+  <li>Do not use JavaScript to auto advance the focus from one field to the next. This makes it difficult for keyboard-only users to navigate and correct mistakes.</li>
+  <li>Display form controls in the same order in HTML as they do on screen. Do not use CSS to rearrange the form controls. Screen readers narrate forms in the order they appear in the HTML.</li>
+  <li>Group each set of thematically related controls in a fieldset element. Use the legend element to offer a label within each one. The fieldset and legend elements make it easier for screen reader users to navigate the form.</li>
+  <li>A single legend is always required for fieldset. A common use of fieldset and legend is a question with radio button options for answers. The question text and radio buttons are wrapped in a fieldset, with the question itself being inside the legend tag.</li>
+  <li>You can embed multiple fieldsets and legends for more complex forms.</li>
 </ul>
-
-<p>If you are a building a form with multiple controls, also consider the <a href="{{ site.baseurl }}/form-controls/">accessibility guidelines in the “Form Templates” section</a>.</p>
+<h4>Error Handling</h4>
+<ul class="usa-content-list">
+  <li>Only show error validation messages or stylings after a user has interacted with a particular field.</li>
+  <li>When a validation error is detected, <em class="em-yellow-bg">aria-invalid="true"</em> should be set to each invalid form element. This attribute causes screen readers to identify the control as being "invalid" or in need of attention.</li>
+  <li>All required fields should have the <em class="em-yellow-bg">aria-required</em> attribute.</li>
+</ul>
 
 <h2 class="usa-heading" id="text-inputs">Text input</h2>
 <p class="usa-font-lead">Text inputs allow people to enter any combination of letters, numbers, or symbols of their choosing (unless otherwise restricted). Text input boxes can span single or multiple lines.</p>
 <div class="preview">
 
-  <label for="input-type-text">Text input label</label>
-  <input id="input-type-text" name="input-type-text" type="text">
-
-  <label for="input-focus">Text input focused</label>
-  <input class="usa-input-focus" id="input-focus" name="input-focus" type="text">
-
-  <div class="usa-input-error">
-    <label class="usa-input-error-label" for="input-error">Text input error</label>
-    <span class="usa-input-error-message" id="input-error-message" role="alert">Helpful error message</span>
-    <input id="input-error" name="input-error" type="text" aria-describedby="input-error-message">
+  <h4>Text Input</h4>
+  <div class="box label"><h6>Default</h6></div>
+  <div class="box">
+    <label class="optional" for="input-type-text">Nickname</label>
+    <input name="input-type-text" type="text" placeholder="i.e.: Superman, Little Randy">
+  </div>
+  <div class="box label"><h6>Focused</h6></div>
+  <div class="box">
+    <label class="optional" for="input-type-text">Nickname</label>
+    <input class="focus" name="input-type-text" type="text" placeholder="i.e.: Superman, Little Randy">
+  </div>
+  <div class="box label"><h6>Filled</h6></div>
+  <div class="box">
+    <label class="optional" for="input-type-text">Nickname</label>
+    <input name="input-type-text" type="text" placeholder="i.e.: Superman, Little Randy" value="Wonder Woman">
+  </div>
+  <div class="box label"><h6>Disabled</h6></div>
+  <div class="box">
+    <label class="optional" for="input-type-text">Nickname</label>
+    <input name="input-type-text" type="text" placeholder="i.e.: Superman, Little Randy" disabled>
+  </div>
+  <div class="box label"><h6>Error Handling</h6></div>
+  <div class="box">
+    <label for="input-type-text">First Name</label>
+    <input class="error" name="input-type-text" type="text" >
+    <span class="error-msg">Required</span>
   </div>
 
-  <label for="input-success">Text input success</label>
-  <input class="usa-input-success" id="input-success" name="input-success" type="text">
+  <h4>Text Input w/ Float Labels</h4>
+  <p class="full uneven-margin">This example uses <a target="_blank" href="http://clubdesign.github.io/floatlabels.js/">Floatlabels.js</a> JQuery plugin.</p>
+  <div class="box label"><h6>Default</h6></div>
+  <div class="box">
+    <input class="floatlabel" name="input-type-text" type="text" data-label="Street Address" placeholder="Street Address (optional)">
+  </div>
+  <div class="box label"><h6>Focused</h6></div>
+  <div class="box">
+    <input class="floatlabel focus" name="input-type-text" type="text" data-label="Street Address" placeholder="Street Address (optional)">
+  </div>
+  <div class="box label"><h6>Filled</h6></div>
+  <div class="box">
+    <input class="floatlabel" name="input-type-text" type="text" data-label="Street Address" placeholder="Street Address (optional)" value="30-10 Bergen St.">
+  </div>
+  <div class="box label"><h6>Disabled</h6></div>
+  <div class="box">
+    <input class="floatlabel" name="input-type-text" type="text" placeholder="Street Address (optional)" disabled>
+  </div>
+  <div class="box label"><h6>Error Handling</h6></div>
+  <div class="box">
+    <input class="error floatlabel" name="input-type-text" type="text" placeholder="First Name" >
+    <span class="error-msg">Required</span>
+  </div>
 
-  <label for="input-type-textarea">Text area label</label>
-  <textarea id="input-type-textarea" name="input-type-textarea"></textarea>
-
+  <h4>Text Area</h4>  
+  <div class="box label"><h6>Default</h6></div>
+  <div class="box">
+    <label class="optional" for="input-type-text">Label</label>
+    <textarea name="input-type-text" type="text" placeholder="Something helpful about what to enter in this text area"></textarea>
+  </div>
+  <div class="box label"><h6>Focused</h6></div>
+  <div class="box">
+    <label class="optional" for="input-type-text">Label</label>
+    <textarea class="focus" name="input-type-text" type="text" placeholder="Something helpful about what to enter in this text area"></textarea>
+  </div>
+  <div class="box label"><h6>Disabled</h6></div>
+  <div class="box">
+    <label class="optional" for="input-type-text">Label</label>
+    <textarea name="input-type-text" type="text" placeholder="Something helpful about what to enter in this text area" disabled></textarea>
+  </div>
 </div>
 
 <div class="usa-accordion-bordered usa-accordion-docs">
@@ -78,15 +137,49 @@ lead: Form controls allow users to enter information into a page.
 <h2 class="usa-heading" id="dropdown">Dropdown</h2>
 <p class="usa-font-lead">A dropdown allows users to select one option from a list.</p>
 
-<div class="preview">
-<form>
-  <label for="options">Dropdown label</label>
-  <select name="options" id="options">
-    <option value="value1">Option A</option>
-    <option value="value2">Option B</option>
-    <option value="value3">Option C</option>
-  </select>
-</form>
+<div class="preview extra-padding">
+  
+  <div class="box label"><h6>Default</h6></div>
+  <div class="box">
+    <label for="default">Label</label>
+    <select id="default">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+  </div>
+
+  <div class="box label"><h6>Focused</h6></div>
+  <div class="box">
+    <label for="focused">Label</label>
+    <select id="focused" class="focus">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+  </div>
+
+  <div class="box label"><h6>Disabled</h6></div>
+  <div class="box">
+    <label for="disabled">Label</label>
+    <select id="disabled" disabled>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+  </div>
+
+  <div class="box label"><h6>Error Handling</h6></div>
+  <div class="box">
+    <label for="error">Label</label>
+    <select id="error" class="error">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+    <span class="error-msg" role="alert" >Required</span>
+  </div>
+
 </div>
 
 <div class="usa-accordion-bordered usa-accordion-docs">
