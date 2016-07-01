@@ -220,7 +220,7 @@ lead: Form controls allow users to enter information into a page.
 <h2 class="usa-heading" id="checkboxes">Checkboxes</h2>
 <p class="usa-font-lead">Checkboxes allow users to select one or more options from a visible list.</p>
 
-<div class="preview">
+<!-- <div class="preview">
 
   <fieldset class="usa-fieldset-inputs usa-sans">
 
@@ -247,7 +247,7 @@ lead: Form controls allow users to enter information into a page.
 
   </fieldset>
 
-</div>
+</div> -->
 
 <div class="usa-accordion-bordered usa-accordion-docs">
   <button class="usa-button-unstyled usa-accordion-button"
@@ -289,7 +289,7 @@ lead: Form controls allow users to enter information into a page.
 <h2 class="usa-heading" id="radiobuttons">Radio buttons</h2>
 <p class="usa-font-lead">Radio buttons allow users to see all available choices at once and select exactly one option.</p>
 
-<div class="preview">
+<!-- <div class="preview">
 
   <fieldset class="usa-fieldset-inputs usa-sans">
 
@@ -312,7 +312,7 @@ lead: Form controls allow users to enter information into a page.
 
   </fieldset>
 
-</div>
+</div> -->
 
 <div class="usa-accordion-bordered usa-accordion-docs">
   <button class="usa-button-unstyled usa-accordion-button"
@@ -346,63 +346,6 @@ lead: Form controls allow users to enter information into a page.
       <li>Options that are listed vertically are easier to read than those that are listed horizontally. Horizontal listings can make it difficult to tell which label pertains to which radio button.</li>
       <li>If you customize, make sure selections are adequately spaced for touch screens.</li>
       <li>Use caution if you decide to set a default value. Setting a default value can discourage users from making conscious decisions, seem pushy, or alienate users who don’t fit into your assumptions. If you are unsure, leave nothing selected by default.</li>
-    </ul>
-  </div>
-</div>
-
-<h2 class="usa-heading" id="date-input">Date input</h2>
-<p class="usa-font-lead">Three text fields are the easiest way for users to enter most dates.</p>
-
-<div class="preview">
-
-  <fieldset>
-    <legend>Date of birth</legend>
-    <span class="usa-form-hint usa-datefield-hint" id="dobHint">For example: 04 28 1986</span>
-
-    <div class="usa-date-of-birth">
-      <div class="usa-datefield usa-form-group usa-form-group-month">
-        <label for="date_of_birth_1">Month</label>
-        <input aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_1" name="date_of_birth_1" pattern="0?[1-9]|1[012]" type="number" min="1" max="12" value="">
-      </div>
-      <div class="usa-datefield usa-form-group usa-form-group-day">
-        <label for="date_of_birth_2">Day</label>
-        <input aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_2" name="date_of_birth_2" pattern="0?[1-9]|1[0-9]|2[0-9]|3[01]" type="number" min="1" max="31" value="">
-      </div>
-      <div class="usa-datefield usa-form-group usa-form-group-year">
-        <label for="date_of_birth_3">Year</label>
-        <input aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_3" name="date_of_birth_3" pattern="[0-9]{4}" type="number" min="1900" max="2000" value="">
-      </div>
-    </div>
-  </fieldset>
-</div>
-
-<div class="usa-accordion-bordered usa-accordion-docs">
-  <button class="usa-button-unstyled usa-accordion-button"
-      aria-expanded="true" aria-controls="collapsible-0">
-    Documentation
-  </button>
-  <div id="collapsible-0" aria-hidden="false" class="usa-accordion-content">
-    <h4 class="usa-heading">Implementation</h4>
-      <p>Currently, the max limit for the year input is set to 2000, but it should be changed depending on the context of the form.</p>
-    <h4 class="usa-heading">Accessibility</h4>
-    <ul class="usa-content-list">
-      <li>These text fields should follow the <a href="{{ site.baseurl }}/form-controls/#text-inputs"> accessibility guidelines for all text inputs.</a></li>
-      <li>Do not use JavaScript to auto advance the focus from one field to the next. This makes it difficult for keyboard-only users to navigate and correct mistakes.</li>
-    </ul>
-
-    <h4 class="usa-heading">Usability</h4>
-    <h5>When to use</h5>
-    <ul class="usa-content-list">
-      <li>Use this format for most dates, particularly memorized dates.</li>
-    </ul>
-    <h5>When to consider something else</h5>
-    <ul class="usa-content-list">
-      <li>If users are trying to schedule something, a calendar picker might make more sense. Be sure to also provide an option for text entry as well.</li>
-    </ul>
-    <h5>Guidelines</h5>
-    <ul class="usa-content-list">
-      <li>Be sure each field is properly labeled — some countries enter dates in day, month, year order.</li>
-      <li>It may be tempting to switch all or some of these text fields to drop downs, but these tend to be more difficult to use than text boxes.</li>
     </ul>
   </div>
 </div>
