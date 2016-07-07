@@ -59,6 +59,20 @@ select  {
     outline: none;
     margin-bottom: 2px;
   }
+
+  /* Float Label - Placeholder */
+  &.floatlabel::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
+    color: $color-gray-dark;
+  }
+  &.floatlabel::-moz-placeholder{ /* Firefox 19+ */
+    color: $color-gray-dark;
+  }
+  &.floatlabel:-ms-input-placeholder{ /* IE 10+ */
+    color: $color-gray-dark;
+  }
+  &.floatlabel:-moz-placeholder{ /* Firefox 18- */
+    color: $color-gray-dark;
+  }
 }
 
 .error-msg {
