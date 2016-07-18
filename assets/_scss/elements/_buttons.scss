@@ -44,7 +44,7 @@ button,
   &:focus,
   &.button-focus {
     background-color: $color-primary-lighter;
-    box-shadow: $button-stroke $color-primary-darker, $focus-shadow;
+    box-shadow: $button-stroke $color-primary-dark, $focus-shadow;
   }
 
   &:active,

@@ -40,9 +40,10 @@ $font-bold:           700;
 $color-primary:              #732282;
 $color-primary-lighter:	 	 lighten($color-primary, 5%); 		//#852796
 $color-primary-lightest:	 lighten($color-primary, 10%); 		//#972daa
-$color-primary-darker:       darken($color-primary, 10%); 		//#4f175a
-$color-primary-darkest:      darken($color-primary, 16%); 		//#3a1141
-$color-primary-fade:	 	 lighten($color-primary, 65%);
+$color-primary-dark:         darken($color-primary, 10%); 		//#4f175a
+$color-primary-darker:       darken($color-primary, 16%); 		//#3a1141
+$color-primary-darkest:      #3E2248;
+$color-primary-fade:	 	 lighten($color-primary, 65%);		//#fbf4fc
 
 $color-secondary:            #0099b2;
 $color-secondary-lighter:    lighten($color-secondary, 5%);  	//#00afcc

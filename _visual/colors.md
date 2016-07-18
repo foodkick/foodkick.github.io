@@ -18,19 +18,35 @@ order: 02
 
 <p>These are accent colors to provide additional lightness and style to pages looking for a more modern flair. These colors should be used to highlight important features on a page, such as buttons, or for visual style elements, such as illustrations. They should be used sparingly and never draw the eye to more than one piece of information at a time.</p>
 
-<div class="usa-grid-full usa-color-row">
-  <div class="color-big">
-    <div class="usa-color-short color-primary">
-    </div>
+<div class="usa-grid-full usa-color-row usa-primary-color-section solo">
+  <div class="usa-color-square color-primary">
+    <div class="usa-color-inner-content">
       <p class="usa-color-hex">#732282</p>
       <p class="usa-color-name">primary</p>
+    </div>
+  </div>
+</div>
+<div class="usa-grid-full usa-color-row usa-primary-color-section">
+  <h6 class="top-pad">Dark</h6>
+  <div class="color-small">
+    <div class="usa-color-short color-primary-dark">
+    </div>
+      <p class="usa-color-hex">#4f175a</p>
+      <p class="usa-color-name">primary-dark</p>
   </div>
   <div class="color-small">
     <div class="usa-color-short color-primary-darker">
     </div>
-      <p class="usa-color-hex">#4f175a</p>
+      <p class="usa-color-hex">#3a1141</p>
       <p class="usa-color-name">primary-darker</p>
   </div>
+  <div class="color-small">
+    <div class="usa-color-short color-primary-darkest">
+    </div>
+      <p class="usa-color-hex">#3E2248</p>
+      <p class="usa-color-name">primary-darkest</p>
+  </div> 
+  <h6 class="top-pad">Light</h6>
   <div class="color-small">
     <div class="usa-color-short color-primary-lighter">
     </div>
@@ -50,6 +66,7 @@ order: 02
       <p class="usa-color-name">primary-fade</p>
   </div> 
 </div>
+
 
 <h4 class="usa-heading">Secondary colors</h4>
 

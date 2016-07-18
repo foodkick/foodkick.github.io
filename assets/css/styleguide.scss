@@ -517,7 +517,7 @@ h3 + .button_wrapper {
 
 .usa-color-name {
   @include media($medium-screen) {
-    margin: 0;
+    // margin: 0;
   }
   margin: {
     bottom: 1em;
@@ -581,7 +581,7 @@ h3 + .button_wrapper {
   }
 
   .usa-color-name {
-    margin: 0;
+    // margin: 0;
   }
 }
 
@@ -623,6 +623,10 @@ h3 + .button_wrapper {
 
 .color-primary {
   background-color: $color-primary;
+}
+
+.color-primary-dark {
+  background-color: $color-primary-dark;
 }
 
 .color-primary-darker {
@@ -1239,6 +1243,24 @@ a.tooltip-small.info:hover:before{
   content: "\75";
 }
 
+.usa-primary-color-section{
+  &.solo{
+    @media (max-width: $small-screen) {
+      margin-bottom: 0;
+    }
+    @media (max-width: $medium-screen) {
+      margin-bottom: 0;
+    }
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+}
+
+.usa-primary-color-section.solo .usa-color-square{
+  @media (max-width: $small-screen) {
+    width: 100%;
+  }
+}
 
 // Font Formatting Styles .font-example
 
