@@ -29,22 +29,22 @@ order: 02
 <div class="usa-grid-full usa-color-row usa-primary-color-section">
   <h6 class="top-pad">Dark</h6>
   <div class="color-small">
-    <div class="usa-color-short color-primary-dark">
-    </div>
-      <p class="usa-color-hex">#4f175a</p>
-      <p class="usa-color-name">primary-dark</p>
-  </div>
-  <div class="color-small">
     <div class="usa-color-short color-primary-darker">
     </div>
-      <p class="usa-color-hex">#3a1141</p>
+      <p class="usa-color-hex">#4f175a</p>
       <p class="usa-color-name">primary-darker</p>
   </div>
   <div class="color-small">
     <div class="usa-color-short color-primary-darkest">
     </div>
-      <p class="usa-color-hex">#3E2248</p>
+      <p class="usa-color-hex">#3a1141</p>
       <p class="usa-color-name">primary-darkest</p>
+  </div>
+  <div class="color-small">
+    <div class="usa-color-short color-primary-bg">
+    </div>
+      <p class="usa-color-hex">#3E2248</p>
+      <p class="usa-color-name">primary-bg</p>
   </div> 
   <h6 class="top-pad">Light</h6>
   <div class="color-small">
