@@ -18,20 +18,45 @@ button,
   cursor: pointer;
   display: inline-block;
   font-family: $font-sans;
-  font-size: $base-font-size;
+  font-size: 15px;
   font-weight: $font-medium;
   line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   margin: {
     top: .5em;
     bottom: .5em;
     right: .5em;
   }
   outline: none;
-  padding: 1rem 2rem;
+  padding: 19px 53px;
   text-align: center;
   text-decoration: none;
   width: 100%;
   -webkit-font-smoothing: antialiased;
+
+  &.wide{
+    padding-left: 102px;
+    padding-right: 102px;
+  }
+
+  &.small{
+    font-size: 13px;
+    padding: 15px 43px;
+    &.wide{
+      padding-left: 73px;
+      padding-right: 73px;
+    }
+  }
+
+  &.large{
+    font-size: 17px;
+    padding: 24px 63px;
+    &.wide{
+      padding-left: 123px;
+      padding-right: 123px;
+    }
+  }
 
   &:hover,
   &.button-hover {
@@ -44,7 +69,7 @@ button,
   &:focus,
   &.button-focus {
     background-color: $color-primary-lighter;
-    box-shadow: $button-stroke $color-primary-dark, $focus-shadow;
+    box-shadow: $button-stroke $color-primary-darker, $focus-shadow;
   }
 
   &:active,

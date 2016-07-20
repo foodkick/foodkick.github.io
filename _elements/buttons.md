@@ -5,7 +5,7 @@ title: Buttons
 lead: Use buttons to signal actions. 
 ---
 
-<div class="preview">
+<div class="preview buttons">
   <h2>Primary Button</h2>
   <h6>Main Styling</h6>
   <div class="button_wrapper">
@@ -36,6 +36,20 @@ lead: Use buttons to signal actions.
     <button class="button-secondary-alt button-secondary-active">Active</button>
     <button class="button-secondary-alt button-secondary-hover">Hover</button>
     <button class="button-secondary-alt button-secondary-focus">Focus</button>
+  </div>
+
+  <h2>Button Variations</h2>
+  <h6>Button Sizes</h6>
+  <div class="button_wrapper">  
+    <button class="small">Small</button>
+    <button>Medium</button>
+    <button class="large">Large</button>
+  </div>
+  <h6>Wide Buttons</h6>
+  <div class="button_wrapper">  
+    <button class="small wide">Small</button>
+    <button class="wide">Medium</button>
+    <button class="large wide">Large</button>
   </div>
 
   <h2>Other Buttons</h2>
