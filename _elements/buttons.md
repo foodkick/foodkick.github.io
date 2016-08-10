@@ -21,6 +21,13 @@ lead: Use buttons to signal actions.
     <button class="button-primary-alt button-hover">Hover</button>
     <button class="button-primary-alt button-focus">Focus</button>
   </div>
+  <h6>Ghost Styling</h6>
+  <div class="button_wrapper dark">
+    <button class="button-primary-alt-dark">Default</button>
+    <button class="button-primary-alt-dark button-active">Active</button>
+    <button class="button-primary-alt-dark button-hover">Hover</button>
+    <button class="button-primary-alt-dark button-focus">Focus</button>
+  </div>
 
   <h2>Secondary Button</h2>
   <h6>Main Styling</h6>

@@ -103,6 +103,27 @@ button,
     }
   }
 
+  /*  Primary Ghost - Dark Button  */
+  &.button-primary-alt-dark {
+    background-color: transparent;
+    color: $color-white;
+    box-shadow: $button-stroke $color-white;
+
+    &:hover,
+    &.button-hover {
+      background-color: $color-white-fade;
+    }
+
+    &:active,
+    &.button-active {
+      background-color: transparent;
+    }
+    &:focus,
+    &.button-focus {
+      box-shadow: $button-stroke $color-white, $focus-glow;
+    }
+  }
+
   /*  Secondary Button  */
   &.button-secondary {
     background-color: $color-secondary;

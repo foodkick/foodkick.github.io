@@ -1122,6 +1122,10 @@ p.full{
   }
 }
 
+.button_wrapper.dark{
+  background-color: $color-primary-bg;
+}
+
 .optional{
   display: inline-block;
   position: relative;

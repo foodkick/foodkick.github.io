@@ -61,6 +61,7 @@ $color-gray-lighter:         #f4f4f3;
 
 $color-red:                	 #b93d3f;
 $color-white:                #ffffff;
+$color-white-fade:           rgba(#fff, .12);
 $color-off-white:            #fafafa;
 $color-base:                 #222222;
 
@@ -83,4 +84,5 @@ $input-max-width:   46rem;
 $border-radius:     rem(3px);
 $box-shadow:        0 0 2px rgba(#000, .3);
 $focus-shadow:      0 0 2px #aaaaaa, 0 0 8px #aaaaaa;
+$focus-glow:  	    0 0 2px #fafafa, 0 0 8px #fafafa;
 $grid-margins:      1.5rem;
