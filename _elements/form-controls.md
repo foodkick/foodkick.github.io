@@ -220,7 +220,7 @@ lead: Form controls allow users to enter information into a page.
 <h2 class="usa-heading" id="checkboxes">Checkboxes</h2>
 <p class="usa-font-lead">Checkboxes allow users to select one or more options from a visible list.</p>
 
-<!-- <div class="preview">
+<div class="preview">
 
   <fieldset class="usa-fieldset-inputs usa-sans">
 
@@ -247,7 +247,7 @@ lead: Form controls allow users to enter information into a page.
 
   </fieldset>
 
-</div> -->
+</div>
 
 <div class="usa-accordion-bordered usa-accordion-docs">
   <button class="usa-button-unstyled usa-accordion-button"
@@ -289,9 +289,11 @@ lead: Form controls allow users to enter information into a page.
 <h2 class="usa-heading" id="radiobuttons">Radio buttons</h2>
 <p class="usa-font-lead">Radio buttons allow users to see all available choices at once and select exactly one option.</p>
 
-<!-- <div class="preview">
+<div class="preview">
 
   <fieldset class="usa-fieldset-inputs usa-sans">
+
+    <h6>Small</h6>
 
     <legend class="usa-sr-only">Historical figures 2</legend>
 
@@ -311,8 +313,30 @@ lead: Form controls allow users to enter information into a page.
     </ul>
 
   </fieldset>
+  <fieldset class="usa-fieldset-inputs usa-sans">
 
-</div> -->
+    <h6>Large</h6>
+
+    <legend class="usa-sr-only">Historical figures 3</legend>
+
+    <ul class="usa-unstyled-list">
+      <li>
+        <input id="orange-soup" class="large" type="radio" checked name="ing" value="orange-pea">
+        <label for="orange-soup">Split Pea</label>
+      </li>
+      <li>
+        <input id="blue-noodle" class="large" type="radio" name="ing" value="blue-noodle">
+        <label for="blue-noodle">Blue Cheese</label>
+      </li>
+      <li>
+        <input id="red-tomato" class="large" type="radio" name="ing" value="red-tomato">
+        <label for="red-tomato">Sliced Tomato</label>
+      </li>
+    </ul>
+
+  </fieldset>
+
+</div>
 
 <div class="usa-accordion-bordered usa-accordion-docs">
   <button class="usa-button-unstyled usa-accordion-button"
