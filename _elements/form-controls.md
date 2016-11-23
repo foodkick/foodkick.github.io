@@ -319,18 +319,18 @@ lead: Form controls allow users to enter information into a page.
 
     <legend class="usa-sr-only">Historical figures 3</legend>
 
-    <ul class="usa-unstyled-list">
+    <ul class="usa-unstyled-list soup-list">
       <li>
         <input id="orange-soup" class="large" type="radio" checked name="ing" value="orange-pea">
-        <label for="orange-soup">Split Pea</label>
+        <label for="orange-soup"><p>Split Pea is great<br>on rainy days</p></label>
       </li>
       <li>
         <input id="blue-noodle" class="large" type="radio" name="ing" value="blue-noodle">
-        <label for="blue-noodle">Blue Cheese</label>
+        <label for="blue-noodle"><p>Melting cheddar cheese on<br>toasted sour dough is best</p></label>
       </li>
       <li>
         <input id="red-tomato" class="large" type="radio" name="ing" value="red-tomato">
-        <label for="red-tomato">Sliced Tomato</label>
+        <label for="red-tomato"><p>My favorite dish is<br>a big bowl of ramen</p></label>
       </li>
     </ul>
 
