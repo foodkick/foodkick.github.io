@@ -112,6 +112,7 @@ button,
     &:hover,
     &.button-hover {
       background-color: $color-white-fade;
+      text-shadow: 0px 0px 20px $color-primary-darker, 0px 1px 0px $color-primary-darker;
     }
 
     &:active,
