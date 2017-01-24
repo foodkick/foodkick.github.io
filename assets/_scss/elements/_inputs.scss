@@ -268,6 +268,19 @@ input[type="radio"].large + label::before {
   background-color: $color-white;
 }
 
+/* Hover */
+input[type="checkbox"]:hover + label::before,
+input[type="radio"]:hover + label::before {
+  box-shadow: 0 0 0 1px $color-primary-darker;
+  background-color: $color-primary-fade;
+}
+
+input[type="radio"].large:hover + label::before {
+  box-shadow: 0 0 0 2px $color-primary-darker;
+  background-image: url('../img/check-purple.svg');
+  background-color: $color-white;
+}
+
 /* Selected */
 input[type="checkbox"]:checked + label::before,
 input[type="radio"]:checked + label::before {
