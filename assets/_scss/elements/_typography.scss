@@ -26,6 +26,16 @@ a {
     text-decoration: underline;
     outline: 0;
   }
+  &.fk-link-blue-light{
+    color: $color-secondary-lightest;
+  }
+  &.fk-link-blue-dark{
+    color: $color-secondary-darker;
+
+    &:hover{
+      color: $color-secondary;
+    }
+  }
 
   // &:visited {
   //   color: $color-visited;
@@ -215,3 +225,5 @@ p,
   font-size: $h6-font-size;
   margin-top: 0;
 }
+
+

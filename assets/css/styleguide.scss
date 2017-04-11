@@ -1041,6 +1041,18 @@ $font-light: 300;
 
 /* Style Additions */
 
+.link_wrapper{
+  clear: both;
+  display: table;
+  margin-left: -1rem;
+  padding: 1rem 1rem;
+}
+
+.link_wrapper.dark{
+  color: white;
+  background-color: $color-gray-darker;
+}
+
 .code-editorial{
   display: block;
   background: #f0f0f0;
@@ -1101,6 +1113,9 @@ p.em-grey-bg{
 }
 .preview h6{
   margin: 30px 0 15px 0;
+  &.zero-margin-bottom{
+  margin-bottom: 0;
+}
 }
 .preview.buttons button{
   margin: 10px;
@@ -1274,6 +1289,7 @@ a.tooltip-small.info:hover:before{
     width: 100%;
   }
 }
+
 
 // Font Formatting Styles .font-example
 

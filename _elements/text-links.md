@@ -8,7 +8,14 @@ lead: Text Links are used to trigger actions or lead users through the site. The
 <div class="preview">
 
   <h3>Text Link</h3>
-  <div><a class="fd-link" href="#">Grocery</a> &nbsp>&nbsp <a class="fd-link" href="#">Beverages</a> &nbsp>&nbsp <a class="fd-link" href="#">Water & Seltzer</a></div>
+
+  <h6 class="zero-margin-bottom">Primary (Purple)</h6>
+  <div class="link_wrapper"><a class="fk-link-purple" href="#">This text link takes you to a world full of flavor</a></div>
+
+  <h6 class="zero-margin-bottom">Secondary (Teal)</h6>
+  <div class="link_wrapper"><a class="fk-link-blue-dark" href="#">This text link takes you to a world full of flavor</a></div>
+
+  <div class="link_wrapper dark"><a class="fk-link-blue-light" href="#">This text link takes you to a world full of flavor</a></div>
   
   <h3>Text Link in a Paragraph</h3>
   <p class="example">Text Links in a paragraph <a class="fd-link" href="#">look like this</a>. With pretty stories for which there's little good evidence quasar. Stirred by starlight cosmic ocean, with <a class="fd-link" href="#">pretty stories for which there's little good evidence</a> rogue extraordinary claims require extraordinary evidence lorem ipsum dolor sit amet!</p>
