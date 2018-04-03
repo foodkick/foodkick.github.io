@@ -263,9 +263,9 @@ input[type="radio"].large + label::before {
   // top: -11px;
   vertical-align: top;
   box-shadow: 0 0 0 2px $color-gray;
-  background-image: url('../img/check-gray.svg');
+  // background-image: url('../img/check-gray.svg');
   background-size: auto 14px;
-  background-color: $color-white;
+  background-color: $color-gray-lighter;
 }
 
 /* Hover */

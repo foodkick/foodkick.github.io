@@ -317,7 +317,7 @@ lead: Form controls allow users to enter information into a page.
 
     <h6>Large</h6>
 
-    <legend class="usa-sr-only">Historical figures 3</legend>
+    <legend class="usa-sr-only">Foods I like</legend>
 
     <ul class="usa-unstyled-list soup-list">
       <li>
