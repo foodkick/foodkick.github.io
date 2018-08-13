@@ -27,13 +27,13 @@ a {
     outline: 0;
   }
   &.fk-link-blue-light{
-    color: $color-secondary-lightest;
+    color: #00bcdb; // outside of color variables
   }
   &.fk-link-blue-dark{
-    color: $color-secondary-darker;
+    color: $color-secondary;
 
     &:hover{
-      color: $color-secondary;
+      color: $color-secondary-lighter;
     }
   }
 
