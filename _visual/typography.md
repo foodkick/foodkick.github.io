@@ -8,12 +8,12 @@ order: 01
 
 <h3 class="usa-heading" id="typefaces">Typefaces</h3>
 
-<h4 class="usa-heading-alt">Graphik</h4>
+<h4 class="usa-heading-alt">Roboto</h4>
 
 <div class="usa-grid-full">
   <div class="usa-width-one-half">
-    <p>Graphik is a sans-serif typeface designed by Christian Schwartz and released through Commercial Type in 2009. Schwartz originally designed Graphik for his own corporate identity. The design of Graphik was inspired by the lesser-known grotesques and geometric sans-serifs of the twentieth century.</p>
-    <p>The dominant trend of the mid twentieth century simple sans serifs still reverberates in visual culture. Graphik proves that it is still possible to create something refreshing inspired by this era.</p>
+    <p>Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. This makes for a more natural reading rhythm more commonly found in humanist and serif types.</p>
+    <p>This is the regular family, which can be used alongside the Roboto Condensed family and the Roboto Slab family.</p>
   </div>
 
   <div class="typography-sans-intro usa-width-one-half usa-end-row">
@@ -26,11 +26,12 @@ order: 01
   </div>
 </div>
 
-<h4 class="usa-heading-alt">Tiempos Headline</h4>
+<h4 class="usa-heading-alt">Georgia</h4>
 
 <div class="usa-grid-full">
   <div class="usa-width-one-half">
-    <p>Tiempos Headline is a serif typeface designed by Kris Sowersby and published through Klim Type Foundry. It’s the display version companion to Tiempos Text, with tighter spacing and higher contrast for setting elegant headlines. Tiempos Headline is also available in more weights than the text version, including light, regular, medium, semibold, bold and black.</p>
+    <p>Georgia is a serif typeface designed in 1993 by Matthew Carter and hinted by Tom Rickner for the Microsoft Corporation. It was intended as a serif font that would appear elegant but legible printed small or on low-resolution screens. The font is inspired by Scotch Roman designs of the 19th century and was based on designs for a print typeface in the same style Carter was working on when contacted by Microsoft; this would be released under the name Miller the following year.</p>
+    <p>As a transitional serif design, Georgia shows a number of traditional features of 'rational' serif typefaces from around the early 19th century, such as alternating thick and thin strokes, ball terminals and a vertical axis.</p>
   </div>
 
   <div class="typography-serif-intro usa-width-one-half usa-end-row usa-serif">
